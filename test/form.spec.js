@@ -7,8 +7,8 @@ import puppeteer from "puppeteer";
 const APP = "https://b2b-fair.online/profiles-add/";
 
 //spammer settings
-const delay = 1600000;
 const registrationsCount = 100;
+const delay = registrationsCount * 7000;
 
 // browser settings
 let page;
